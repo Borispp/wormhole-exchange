@@ -1,0 +1,218 @@
+.exchange {
+  $this: &;
+
+  display: flex;
+  justify-content: center;
+  color: $gray;
+  width: calc(100% - 30px);
+  max-width: 610px;
+  margin: 60px 0 50px;
+
+  &.form {
+    margin-top: 115px;
+  }
+
+  &__wrapper {
+    width: 100%;
+    max-width: 580px;
+  }
+
+  &__box {
+    padding: 1px 0 40px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%), #091925;
+    border-radius: 20px;
+    box-shadow: 0 40px 60px #010910;
+  }
+
+  &__notation {
+    font-size: 12px;
+    line-height: 14px;
+    width: 100%;
+    max-width: 400px;
+    margin: 36px auto 0;
+    text-align: center;
+  }
+
+  &__box-switch {
+    width: 340px;
+    margin: -64px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__box-switch-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__box-switch-label {
+    color: $gray;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+  }
+
+  &__box-switch-label-sub {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__box-switch-token-icon {
+    background: linear-gradient(360deg, #2D3D4A 0%, #0D1C28 100%);
+    box-shadow: 0 20px 40px rgba(1, 9, 16, 0.4), inset 0px 1px 2px #2A3D4B;
+    border-radius: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 0;
+    margin: 10px 0;
+  }
+
+  &__box-switch-button {
+    cursor: pointer;
+    line-height: 0;
+    transition: transform .25s ease-in-out, opacity .15s ease-in-out;
+
+    &:hover {
+      transform: rotate(180deg);
+      opacity: 1;
+    }
+  }
+
+  &__set-address {
+    margin-top: 20px;
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+
+  &__set-address-field {
+    margin: 20px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__submit-loading {
+    position: absolute;
+    margin-left: -36px;
+    margin-top: -3px;
+  }
+
+  &__result-heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: lowercase;
+    color: $green;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #213340;
+  }
+
+  &__result-tokens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  &__result-token {
+    border: 1px solid rgba(#688295, .4);
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    line-height: 0;
+    margin: 0 10px;
+  }
+
+  &__result-direction-address {
+    margin-top: 5px;
+    color: $gray;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  &__result-qr {
+    text-align: center;
+    margin: 35px 0 30px;
+  }
+
+  &__result-list {
+    margin: 0 88px;
+
+    @media (max-width: 640px) {
+      margin: 0 40px;
+    }
+  }
+
+  &__result-list-item-result {
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+    transition: color .15s ease-in-out;
+
+    &:hover {
+      color: #fff;
+
+      #{$this}__result-copy-icon {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      letter-spacing: -0.02em;
+      margin-left: 0;
+      width: 100%;
+      margin-top: 8px;
+    }
+  }
+
+  &__result-copy-icon {
+    position: absolute;
+    right: -20px;
+    top: -2px;
+    opacity: .4;
+    transition: opacity .15s ease-in-out;
+  }
+
+  &__result-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid #172A37;
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &__result-list-item-img {
+    position: absolute;
+    left: -26px;
+    margin-right: 8px;
+  }
+
+  &__result-list-item-shortname {
+    text-transform: uppercase;
+  }
+}

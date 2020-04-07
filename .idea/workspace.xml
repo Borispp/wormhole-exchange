@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11234329-bae3-41be-96d3-af015e647016" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="React tsx PureComponent" />
+        <option value="React.PureComponent" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VTjOs6Ob1Yv8V6SphrJdV2UiXn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles/components" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles/components" />
+      <recent name="$PROJECT_DIR$/src/components/containers" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/src/store" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/sagas/app" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11234329-bae3-41be-96d3-af015e647016" name="Default Changelist" comment="" />
+      <created>1577283949474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577283949474</updated>
+      <workItem from="1577283951191" duration="31076000" />
+      <workItem from="1577489736918" duration="11452000" />
+      <workItem from="1578574433827" duration="45000" />
+      <workItem from="1578574824249" duration="581000" />
+      <workItem from="1578981941443" duration="622000" />
+      <workItem from="1586112348626" duration="26757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="426" y="248" width="683" height="486" key="find.popup" timestamp="1586188348446">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="426" y="248" width="683" height="486" key="find.popup/0.23.1536.937@0.23.1536.937" timestamp="1586188348446" />
+    <state x="433" y="226" key="run.anything.popup" timestamp="1586275266200">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="433" y="226" key="run.anything.popup/0.23.1536.937@0.23.1536.937" timestamp="1586275266200" />
+    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup" timestamp="1586284276618">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1536.937@0.23.1536.937" timestamp="1586284276618" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+.app-header {
+  text-align: center;
+
+  &__prefix {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    color: #fff;
+    letter-spacing: 0.01em;
+
+    span {
+      color: $green;
+    }
+  }
+
+  &__main {
+    margin-top: 84px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    color: $green;
+  }
+
+  &__headline {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.5em;
+    text-transform: lowercase;
+    color: #fff;
+  }
+}

@@ -1,0 +1,16 @@
+.notification-container {
+  width: 210px !important;
+}
+
+.notification {
+  box-shadow: none;
+  padding-left: 20px !important;
+
+  &.notification-success {
+    background: $green !important;
+
+    &:before {
+      display: none;
+    }
+  }
+}

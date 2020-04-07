@@ -1,0 +1,62 @@
+.app-footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app-footer {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: 640px) {
+    justify-content: center;
+  }
+
+  &__menu-wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  &__menu-label {
+    color: $gray;
+    padding-left: 12px;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__menu-link {
+    color: $green;
+    font-weight: bold;
+    padding: 0 12px;
+    position: relative;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:after {
+      content: '';
+      width: 2px;
+      height: 2px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(50% - 1px);
+      right: -1px;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+  }
+}
