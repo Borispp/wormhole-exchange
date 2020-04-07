@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/wormhole-exchange/static/css/main.4935eb34.chunk.css",
+    "main.js": "/wormhole-exchange/static/js/main.862f2b5b.chunk.js",
+    "main.js.map": "/wormhole-exchange/static/js/main.862f2b5b.chunk.js.map",
+    "runtime-main.js": "/wormhole-exchange/static/js/runtime-main.3149537d.js",
+    "runtime-main.js.map": "/wormhole-exchange/static/js/runtime-main.3149537d.js.map",
+    "static/css/2.9afb8a56.chunk.css": "/wormhole-exchange/static/css/2.9afb8a56.chunk.css",
+    "static/js/2.782593df.chunk.js": "/wormhole-exchange/static/js/2.782593df.chunk.js",
+    "static/js/2.782593df.chunk.js.map": "/wormhole-exchange/static/js/2.782593df.chunk.js.map",
+    "index.html": "/wormhole-exchange/index.html",
+    "precache-manifest.6bbaffc096dbfa588c398586324874f5.js": "/wormhole-exchange/precache-manifest.6bbaffc096dbfa588c398586324874f5.js",
+    "service-worker.js": "/wormhole-exchange/service-worker.js",
+    "static/css/2.9afb8a56.chunk.css.map": "/wormhole-exchange/static/css/2.9afb8a56.chunk.css.map",
+    "static/css/main.4935eb34.chunk.css.map": "/wormhole-exchange/static/css/main.4935eb34.chunk.css.map",
+    "static/js/2.782593df.chunk.js.LICENSE.txt": "/wormhole-exchange/static/js/2.782593df.chunk.js.LICENSE.txt",
+    "static/media/btc.svg": "/wormhole-exchange/static/media/btc.6800f703.svg",
+    "static/media/copy.svg": "/wormhole-exchange/static/media/copy.5264665e.svg",
+    "static/media/direction.svg": "/wormhole-exchange/static/media/direction.497d9c05.svg",
+    "static/media/eth.svg": "/wormhole-exchange/static/media/eth.76e5d08c.svg",
+    "static/media/loading.svg": "/wormhole-exchange/static/media/loading.2e8a139f.svg",
+    "static/media/core.scss": "/wormhole-exchange/static/media/notification.c0d3c94c.eot",
+    "static/media/percent.svg": "/wormhole-exchange/static/media/percent.23fa37d7.svg",
+    "static/media/switch.svg": "/wormhole-exchange/static/media/switch.fd72eb69.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3149537d.js",
+    "static/css/2.9afb8a56.chunk.css",
+    "static/js/2.782593df.chunk.js",
+    "static/css/main.4935eb34.chunk.css",
+    "static/js/main.862f2b5b.chunk.js"
+  ]
+}
