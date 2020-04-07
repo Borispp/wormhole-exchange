@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f20c8e3980c3296c1d76684f997c45e",
+    "revision": "732243dd021d336d11901b2de66d3a87",
     "url": "/wormhole-exchange/index.html"
   },
   {

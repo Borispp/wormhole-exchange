@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wormhole-exchange/precache-manifest.6bbaffc096dbfa588c398586324874f5.js"
+  "/wormhole-exchange/precache-manifest.8df96d0eabfa30a50ebd17144df64173.js"
 );
 
 self.addEventListener('message', (event) => {
