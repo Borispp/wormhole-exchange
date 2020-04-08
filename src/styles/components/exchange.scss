@@ -39,6 +39,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 640px) {
+      width: 240px;
+    }
   }
 
   &__box-switch-item {
@@ -73,6 +77,14 @@
     box-sizing: border-box;
     line-height: 0;
     margin: 10px 0;
+
+    img {
+      width: 80px;
+
+      @media (max-width: 640px) {
+        width: 50px;
+      }
+    }
   }
 
   &__box-switch-button {
@@ -90,6 +102,10 @@
     margin-top: 20px;
     padding: 0 60px;
     box-sizing: border-box;
+
+    @media (max-width: 640px) {
+      padding: 0 30px;
+    }
   }
 
   &__set-address-field {

@@ -87,7 +87,7 @@ class Exchange extends Component {
               <div className="exchange__box-switch">
                 <div className="exchange__box-switch-item">
                   <div className="exchange__box-switch-label">from</div>
-                  <div className="exchange__box-switch-token-icon"><img src={exchange.from.img} width='80' alt={exchange.from.label} /></div>
+                  <div className="exchange__box-switch-token-icon"><img src={exchange.from.img} alt={exchange.from.label} /></div>
                   <div className="exchange__box-switch-label-sub">{exchange.from.label}</div>
                 </div>
 
@@ -97,7 +97,7 @@ class Exchange extends Component {
 
                 <div className="exchange__box-switch-item">
                   <div className="exchange__box-switch-label">to</div>
-                  <div className="exchange__box-switch-token-icon"><img src={exchange.to.img} width='80' alt={exchange.to.label} /></div>
+                  <div className="exchange__box-switch-token-icon"><img src={exchange.to.img} alt={exchange.to.label} /></div>
                   <div className="exchange__box-switch-label-sub">{exchange.to.label}</div>
                 </div>
               </div>
