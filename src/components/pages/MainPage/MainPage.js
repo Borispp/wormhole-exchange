@@ -33,7 +33,9 @@ class MainPage extends Component {
 
     return (
       <div className="app">
-        <Header formState={formState} />
+        <div onClick={() => this.setState({ formState: 'exchange' })}>
+          <Header formState={formState} />
+        </div>
 
         <Exchange setFormState={this.setFormState} formState={formState} />
 

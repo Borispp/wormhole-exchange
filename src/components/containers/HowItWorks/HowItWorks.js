@@ -4,7 +4,7 @@ import classNames from 'classnames';
 const questions = [
   {
     title: 'How it works?',
-    message: 'Currencies are converted through the Uniswap Exchange.',
+    message: 'Choose the direction of the wormhole and enter your exit address. An entry address will be created for you. Whenever you send funds to your entry address, they will be converted and sent to the exit address. Decentralized.',
   },
   {
     title: 'How are the currencies converted?',
@@ -12,11 +12,11 @@ const questions = [
   },
   {
     title: 'What is the fee for using a wormhole?',
-    message: 'Currencies are converted through the Uniswap Exchange.',
+    message: 'A 0.3% fee is charged on the value transferred through the wormhole.',
   },
   {
     title: 'How can you convert bitcoins decentralized?',
-    message: 'Currencies are converted through the Uniswap Exchange.',
+    message: 'We use a decentralized peg-in, peg-out system developed by Provable, called pTokens. For a detailed technical explanation, please consult our docs.',
   },
 ];
 
