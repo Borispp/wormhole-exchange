@@ -1,0 +1,230 @@
+.estimator {
+  $this: &;
+
+  width: 100%;
+  max-width: 580px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%), #091925;
+  box-shadow: -40px 0px 60px rgba(1, 9, 16, 0.6);
+  border-radius: 20px;
+  position: absolute;
+  z-index: 9990;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #fff;
+  padding: 100px 60px 60px;
+  box-sizing: border-box;
+  transition: transform .4s ease-in-out, opacity .25s ease-in-out;
+
+  @media (max-width: 640px) {
+    padding: 90px 20px 30px;
+    border-radius: 0;
+  }
+
+  &.enter,
+  &.exit-active {
+    transform: translate(100%, 0);
+    opacity: 0;
+  }
+
+  &.enter-active,
+  &.enter-done,
+  &.appear {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  &__close {
+    background: #0A1A26;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 70px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    img {
+      opacity: .5;
+      transition: all .15s ease-in-out;
+    }
+
+    &:hover {
+      img {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      width: 64px;
+      height: 48px;
+      right: 20px;
+    }
+  }
+
+  &__header {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: lowercase;
+    color: $green;
+  }
+
+  &__inputs {
+    position: relative;
+    margin-top: 35px;
+    background: linear-gradient(180deg, #0A1A26 0%, rgba(10, 26, 38, 0) 100%);
+    border: 1px solid $border-gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  &__input-switch {
+    cursor: pointer;
+    line-height: 0;
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 9px);
+    transform: rotate(90deg);
+    transition: transform .25s ease-in-out, opacity .15s ease-in-out;
+
+    &:hover {
+      transform: rotate(270deg);
+      opacity: 1;
+    }
+
+    img {
+      width: 18px;
+    }
+  }
+
+  &__input-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 55px;
+    border-bottom: 1px solid $border-gray;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      #{$this}__input-item-label {
+        color: #fff;
+      }
+    }
+  }
+
+  &__input-item-icon {
+    margin: 0 12px 0 20px;
+    line-height: 0;
+
+    img {
+      width: 24px;
+    }
+  }
+
+  &__input-item-wrapper {
+    flex: 1;
+
+    input {
+      border: none;
+      padding: 0;
+      background: transparent;
+    }
+  }
+
+  &__input-item-label {
+    color: $gray;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 12px;
+    margin: 0 20px 0 12px;
+    transition: color .15s ease-in-out;
+  }
+
+  &__msg {
+    width: 100%;
+    max-width: 390px;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 32px auto 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $gray;
+  }
+
+  &__result-list {
+    margin: 30px 24px 0 49px;
+  }
+
+  &__result-list-item-result {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+    transition: color .15s ease-in-out;
+
+    &:hover {
+      color: #fff;
+
+      #{$this}__result-copy-icon {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      letter-spacing: -0.02em;
+      //margin-left: 0;
+      //width: 100%;
+      //margin-top: 8px;
+    }
+  }
+
+  &__result-copy-icon {
+    position: absolute;
+    top: -2px;
+    opacity: .4;
+    transition: opacity .15s ease-in-out;
+  }
+
+  &__result-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid $border-gray;
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &__result-list-item-img {
+    position: absolute;
+    left: -26px;
+    margin-right: 8px;
+  }
+
+  &__result-list-item-label {
+    color: $gray;
+  }
+
+  &__result-list-item-shortname {
+    text-transform: uppercase;
+  }
+}
+

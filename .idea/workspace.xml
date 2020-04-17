@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11234329-bae3-41be-96d3-af015e647016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/slippage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/containers/Estimator/Estimator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/containers/Estimator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/estimator.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.4935eb34.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.4935eb34.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.862f2b5b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.862f2b5b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/containers/HowItWorks/HowItWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/containers/HowItWorks/HowItWorks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/containers/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/containers/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/components/app-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/app-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/how-it-works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/how-it-works.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/includes/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/includes/_basic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/includes/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/includes/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +47,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/containers" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/styles/components" />
       <recent name="$PROJECT_DIR$/src/components/containers" />
+      <recent name="$PROJECT_DIR$/src/styles/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/store" />
@@ -87,7 +90,7 @@
       <workItem from="1578574433827" duration="45000" />
       <workItem from="1578574824249" duration="581000" />
       <workItem from="1578981941443" duration="622000" />
-      <workItem from="1586112348626" duration="34104000" />
+      <workItem from="1586112348626" duration="54211000" />
     </task>
     <servers />
   </component>
@@ -95,17 +98,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="248" width="683" height="486" key="find.popup" timestamp="1586188348446">
+    <state x="426" y="248" width="683" height="486" key="find.popup" timestamp="1587108321734">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state x="426" y="248" width="683" height="486" key="find.popup/0.23.1536.937@0.23.1536.937" timestamp="1586188348446" />
+    <state x="426" y="248" width="683" height="486" key="find.popup/0.23.1536.937@0.23.1536.937" timestamp="1587108321734" />
     <state x="433" y="226" key="run.anything.popup" timestamp="1586275266200">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="433" y="226" key="run.anything.popup/0.23.1536.937@0.23.1536.937" timestamp="1586275266200" />
-    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup" timestamp="1586329163961">
+    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup" timestamp="1587108275361">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1536.937@0.23.1536.937" timestamp="1586329163961" />
+    <state x="433" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1536.937@0.23.1536.937" timestamp="1587108275361" />
   </component>
 </project>

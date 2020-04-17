@@ -2,7 +2,15 @@ import React from 'react';
 
 const Header = props => (
   <div className="app-header">
-    <div className='app-header__prefix'><span>wormhole</span>.exchange</div>
+    <div className="app-header__top">
+      <div className='app-header__prefix' onClick={props.onBack}><span>wormhole</span>.exchange</div>
+
+      <div>
+        <button type='button' className='default-button small filled' onClick={props.switchEstimator}>
+          Rate estimator
+        </button>
+      </div>
+    </div>
 
     {props.formState === 'exchange' && <div>
       <div className='app-header__main'>atomic</div>
