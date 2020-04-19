@@ -11,11 +11,6 @@ const Header = props => (
         </button>
       </div>
     </div>
-
-    {props.formState === 'exchange' && <div>
-      <div className='app-header__main'>atomic</div>
-      <h1 className="app-header__headline">Crypto Exchange</h1>
-    </div>}
   </div>
 );
 

@@ -44,12 +44,20 @@ class MainPage extends Component {
     return (
       <div className="app">
         <div className='app__header'>
-          <Header onBack={() => this.setState({ formState: 'exchange' })} switchEstimator={this.switchEstimator} formState={formState} />
+          <Header onBack={() => this.setState({ formState: 'exchange' })} switchEstimator={this.switchEstimator} />
         </div>
 
-        <Exchange setFormState={this.setFormState} formState={formState} />
+        <div className='app__content'>
+          {formState === 'exchange' && <div className='app-header__name'>
+            <div className='app-header__main'>atomic</div>
+            <h1 className="app-header__headline">Crypto Exchange</h1>
+          </div>}
 
-        {formState === 'exchange' && <HowItWorks />}
+          <Exchange setFormState={this.setFormState} formState={formState} />
+          {formState === 'exchange' && <HowItWorks />}
+
+        </div>
+
 
         <Footer />
 

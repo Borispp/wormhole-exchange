@@ -79,15 +79,15 @@
     position: relative;
     margin-top: 35px;
     background: linear-gradient(180deg, #0A1A26 0%, rgba(10, 26, 38, 0) 100%);
-    border: 1px solid $border-gray;
-    box-sizing: border-box;
     border-radius: 10px;
+
   }
 
   &__input-switch {
     cursor: pointer;
     line-height: 0;
     position: absolute;
+    z-index: 4;
     right: 20px;
     top: calc(50% - 9px);
     transform: rotate(90deg);
@@ -108,10 +108,25 @@
     align-items: center;
     cursor: pointer;
     height: 55px;
-    border-bottom: 1px solid $border-gray;
+    border: 1px solid $border-gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: -1px;
+    position: relative;
+    transition: border-color .15s ease-in-out;
+    //border-bottom: 1px solid $border-gray;
+
+    &.focused {
+      border: 1px solid #355469;
+      z-index: 1;
+    }
+
+    &:first-child {
+      border-radius: 10px 10px 0 0;
+    }
 
     &:last-child {
-      border-bottom: none;
+      border-radius: 0 0 10px 10px;
     }
 
     &:hover {

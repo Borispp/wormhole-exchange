@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 import { CSSTransition } from "react-transition-group";
 import onClickOutside from "react-onclickoutside";
 
@@ -10,16 +11,29 @@ import iconSlippage from 'assets/icons/slippage.svg';
 import iconPercent from 'assets/icons/percent.svg';
 
 class Estimator extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      inputType: null,
+    }
+  }
 
   handleClickOutside = evt => {
     this.props.onClose()
   };
 
+  onFocus = inputType => () => {
+    this.setState({ inputType });
+  };
+
+  onBlur = inputType => () => {
+    this.setState({ inputType: null });
+  };
+
   render() {
     const { isShown } = this.props;
+    const { inputType } = this.state;
 
     return (
       <CSSTransition
@@ -34,19 +48,19 @@ class Estimator extends Component {
             <h3 className='estimator__header'>rate estimator</h3>
 
             <div className="estimator__inputs">
-              <div className="estimator__input-switch"><img src={iconSwitch} alt='switch' /></div>
 
-              <label className="estimator__input-item">
+              <label className={classNames("estimator__input-item", { 'focused': inputType === 'entry' } )}>
                 <div className="estimator__input-item-icon"><img src={iconBtc} alt='token' /></div>
                 <div className="estimator__input-item-wrapper">
-                  <input type="text" placeholder='Amount entry' className='default-input' />
+                  <input type="text" placeholder='Amount entry' className='default-input' onFocus={ this.onFocus('entry') } onBlur={ this.onBlur('entry') } />
                 </div>
                 <div className="estimator__input-item-label">BTC</div>
               </label>
-              <label className="estimator__input-item">
+              <div className="estimator__input-switch"><img src={iconSwitch} alt='switch' /></div>
+              <label className={classNames("estimator__input-item", { 'focused': inputType === 'exit' } )}>
                 <div className="estimator__input-item-icon"><img src={iconEth} alt='token' /></div>
                 <div className="estimator__input-item-wrapper">
-                  <input type="text" placeholder='Amount exit' className='default-input' />
+                  <input type="text" placeholder='Amount exit' className='default-input' onFocus={ this.onFocus('exit') } onBlur={ this.onBlur('exit') } />
                 </div>
                 <div className="estimator__input-item-label">ETH</div>
               </label>

@@ -29,7 +29,7 @@ class HowItWorks extends Component {
   }
 
   setQuestion = questionIndex => () => {
-    this.setState({ openQuestion: questionIndex });
+    this.setState(state => ({ openQuestion: state.openQuestion === questionIndex ? null : questionIndex }));
   }
 
   render() {
